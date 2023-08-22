@@ -27,7 +27,7 @@ This repository mainly covers look-able assets from the studies, rather than cod
 <summary>fold</summary>
 </details>
 
-<iframe src="./assets/micro_class_structure_.html", width="500px", height="400px"></iframe>
+<iframe src="https://htmlpreview.github.io/?https://github.com/acheul/snowyseoul_pub/blob/main/220808/micro_class_structure_.html", width="500px", height="400px"></iframe>
 
 라디다 
 
