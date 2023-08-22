@@ -20,7 +20,7 @@ This repository mainly covers look-able assets from the studies, rather than cod
 
 * **Data: *HoJeokDaeJang* of Taeku and Tansung**
 
-  *Accumulative count of remaining records*
+  *Accumulative counts of remaining records*
 
   ||*Taeku*|*Tansung*|
   |--|--|--|
@@ -46,7 +46,7 @@ This repository mainly covers look-able assets from the studies, rather than cod
     &nbsp;&nbsp; *(*M-F: male and family-member)*
 
 * **Processing(2): Generate Socio-rank score**
-  * I built the ***Job2Vec*** model to quantitate social ranks. The raw data has natural-language formated record on each individuals social status - which is called *JikYuk(職役)* at the historical context. The number of unique values of *JikYuk* is more than 49,000. Simple **Word2Vec** is not a good tool to use here, as the record has at least more than 2 levels semantic hierarchy.
+  * I built the ***Job2Vec*** model to quantitate social ranks. The raw data has natural-language formated record on each individuals social status - which is called *JikYuk(職役)* from the historical context. The number of unique values of *JikYuk* is more than 49,000. Simple **Word2Vec** is not a good tool to use here, as the record has at least more than 2 levels semantic hierarchy.
   * **Job2Vec** conducts 2 level computation. First, it computes a representation of a sequence of Chinese characters consising of a value of *JikYuk*. The backbone of this first level sub-model is Transformer(Vaswani et al. 2017). Next, the second sub-model receives the result of first model - a pair of two values - then conducts the general word2vec computation. This 2-level Word2Vec, or Job2Vec, effeciently represents semantic distances and positions of the *JikYuk*s.
   * Results of Job2Vec are not directly used for Socio-Rank Score. The results go through a series of statistical processes: gradating overall distribution over time; changing the raw scores into rank scores over time. Logit transformation and hierarchical regression model were used.
 
