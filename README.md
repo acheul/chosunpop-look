@@ -1,6 +1,13 @@
 # *Look on Chosun-Population and Social Mobility Project*
 
-*Chosun dynasty(Korea, 15th~19th Century)* produced triennial population census data, called *HoJeokDaeJang*. Today only parts of the original data remain, still considerable is the amount. This historical big data - easily covering more than 200 years and 2 million population size of a certain region - has triggered interesting studies of demography and social sciences.
+*What's this?*
+<img src="./assets/plots/micro_class_structure_2.png" width="500px" height="500px">
+*A social structure.*
+
+▶️ [Go to the Dynamic View](https://acheul.github.io/chosunpop-look)
+
+</br>
+<i>Chosun dynasty(Korea, 15th~19th Century)</i> produced triennial population census data, called *HoJeokDaeJang*. Today only parts of the original data remain, still considerable is the amount. This historical big data - easily covering more than 200 years and 2 million population size of a certain region - has triggered interesting studies of demography and social sciences.
 
 This project, ***ChosunPop***, seeks to take a leap to dive into the data with more powerful methodological tools and statistical frameworks. Let's say, HOW to quantitatively estimates social status of individuals from the raw records which have qualitative formats? HOW to conduct a statistical analysis on this massive but messy data that left behind history?
 
@@ -92,10 +99,9 @@ This repository mainly covers look-able assets from the studies, rather than cod
   <br/>
 
   * **Shapes of Social Stratification of 18th~19th Century in Korea**
-    * [> Go to Dynamic View](https://htmlpreview.github.io/?https://github.com/acheul/snowyseoul_pub/blob/main/220808/micro_class_structure_.html) <br/>
+    * [Dynamic View](https://acheul.github.io/chosunpop-look) <br/>
   * * *The higher is the social status of a *JikYuk* the blue is its dot, the lower the red.*
   * <img src="./assets/plots/micro_class_structure_1.png" width="500px" height="500px">
-  * <img src="./assets/plots/micro_class_structure_2.png" width="500px" height="500px">
 
   * **Distribution of processed socio-rank scores over areas over time**  
   * <img src="./assets/plots/그림 E-2.png">
