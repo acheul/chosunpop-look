@@ -1,7 +1,9 @@
 # *Look on Chosun-Population and Social Mobility Project*
 
 *What's this?*
+
 <img src="./assets/plots/micro_class_structure_2.png" width="500px" height="500px">
+
 *A social structure.*
 
 ▶️ [Go to the Dynamic View](https://acheul.github.io/chosunpop-look)
