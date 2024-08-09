@@ -2,7 +2,9 @@
 
 *What's this?*
 
+<a href="https://acheul.github.io/chosunpop-look" title="Click to see the dynamic view">
 <img src="./assets/plots/micro_class_structure_2.png" width="100%">
+</a>
 
 *A social structure.*
 
