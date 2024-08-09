@@ -2,7 +2,7 @@
 
 *What's this?*
 
-<img src="./assets/plots/micro_class_structure_2.png" width="500px" height="500px">
+<img src="./assets/plots/micro_class_structure_2.png" width="100%">
 
 *A social structure.*
 
